@@ -1,0 +1,130 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All common css End  */
+
+#topheader{
+    background: #20282D;
+}
+.topheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+  
+}
+.topheadercontainer  ul  {
+    display: flex;
+}
+/* top header left start */
+.topheaderleft ul li a {
+color:#ffff;  
+margin: 0 5px; 
+font-family: "DM Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
+.forhover{
+    transition-duration: .4s;
+}
+.forhover:hover {
+border-bottom: 1px solid #ffff;
+    }
+.topheaderleft ul li a span {
+    padding:0  22px 18px;
+    font-weight: bold;
+    }
+/* top header left end */
+
+
+/* top header right start*/
+
+.topheaderright ul li a {
+    color:#ffff;  
+    margin: 0 10px; 
+    font-family: "DM Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+    }
+    
+    .topheaderright ul li a span {
+       padding-left: 10px;
+    font-weight: bold;
+        }
+/* top header right end*/
+
+/* Headercontainer start  */
+#Header{
+    background: rgb(199, 209, 209);
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.headercontainer ul{
+    display: flex;
+    padding: 20px 0;
+}
+/* Headercontainer End  */
+
+/* Headercontainer left start  */
+
+/* Headercontainer left End  */
+
+/* Headercontainer middel start  */
+.headermiddel ul li a{
+    display: flex;
+    line-height: 60px;
+    color:#20282D;
+    padding: 0 25px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Headercontainer middel End  */
+
+/* Headercontainer right start  */
+.headerright ul li a{
+    display: flex;
+    
+    color:#20282D;
+    padding: 20px 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerright ul li  button{
+border-radius:20px;
+border: none;
+color:#ffff;
+background: #20282D ;
+padding: 18px 40px;
+font-family: "DM Sans", sans-serif;
+font-size: 16px;
+font-weight:bold;
+transition-duration: .4s;
+}
+.headerright ul li  button:hover{
+    background: #eceaea;
+    color:  #20282D;
+}
+.forborder{
+background: #ede3e3;
+border-radius: 10px;
+margin: 0 15px;
+
+}
+/* Headercontainer right End  */
