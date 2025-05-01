@@ -66,9 +66,7 @@ font-weight: 400;
 /* top header right end*/
 
 /* Headercontainer start  */
-#Header{
-    background: rgb(199, 209, 209);
-}
+
 .headercontainer{
     display: flex;
     justify-content: space-between;
@@ -100,14 +98,12 @@ font-weight: 400;
 .headerright ul li a{
     display: flex;
     
-    color:#20282D;
-    padding: 20px 20px;
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
-.headerright ul li  button{
-border-radius:20px;
+.button{
+border-radius:15px;
 border: none;
 color:#ffff;
 background: #20282D ;
@@ -117,14 +113,168 @@ font-size: 16px;
 font-weight:bold;
 transition-duration: .4s;
 }
-.headerright ul li  button:hover{
+.button:hover{
     background: #eceaea;
     color:  #20282D;
+
 }
 .forborder{
 background: #ede3e3;
+padding: 20px 20px;
+color: #20282D;
 border-radius: 10px;
 margin: 0 15px;
 
 }
 /* Headercontainer right End  */
+
+/* Banner part start  */
+#bannerpart{
+    padding-top: 280px;
+    padding-bottom: 270px;
+    background: url(../image/02.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.bannercontent{
+    text-align: center;
+    color: #ffff;
+}
+.bannercontent h4{
+    font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 26px;
+
+}
+.bannercontent h4 span{
+    font-family: "DM Sans", sans-serif;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.bannercontent h1 {
+font-family: "Red Hat Display", sans-serif;
+font-size: 80px;
+font-weight: 600;
+line-height: 96px;
+width: 906px;
+margin: 0 auto;
+padding: 40px 0 30px 0;
+}
+.bannercontent p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 678px;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.bannercontent a{
+    padding: 25px 40px;
+    background: #ffff;
+    color: #20282D;
+    border-radius: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+    transition-duration: .4s;
+}
+.bannercontent a:hover{
+    background: #20282D;
+    color:  #eceaea;
+
+}
+/* Banner part End  */
+
+/* About part start  */
+#aboutpart{
+    padding-top: 135px;
+}
+.aboutsections{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutleft{
+    width: 50%;
+    height: 685px;
+}
+.aboutleft img{
+    width: 612px;
+    height: 100%;
+}
+.aboutright{
+    width: 45%;
+    
+}
+.aboutright h4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.aboutright h3 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 48.5px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    width: 395px;
+}
+.aboutright p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 40px;
+    color: #5D666F;
+    width: 654px;
+}
+.aboutright ul li{
+    color: #5D666F;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 5px;
+    line-height: 26px;
+}
+.aboutright ul li i{
+    padding-right: 5px;
+    color: #20282D;
+}
+.aboutright ul li a i{
+    padding: 20px;
+    background: #20282D;
+    color: #ffff;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+.callus {
+    color: #20282D;
+   padding-top: 5px;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.callus li h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+/* About part End  */
+
+/* Banner part start  */
+/* Banner part End  */
+
+/* Banner part start  */
+/* Banner part End  */
