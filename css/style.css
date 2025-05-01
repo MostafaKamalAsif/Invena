@@ -119,7 +119,7 @@ transition-duration: .4s;
 
 }
 .forborder{
-background: #ede3e3;
+background:  #eceaea;
 padding: 20px 20px;
 color: #20282D;
 border-radius: 10px;
@@ -202,29 +202,64 @@ padding: 40px 0 30px 0;
 .aboutleft{
     width: 50%;
     height: 685px;
+    position: relative;
 }
 .aboutleft img{
-    width: 612px;
     height: 100%;
+}
+.experience {
+    background: #000000;
+    position: absolute;
+    padding: 61px 20px 51px 20px;
+    top: 87px;
+    left: -61px;
+    border-radius: 20px;
+}
+.aboutleft .experience h3{
+    color: #ffff;
+    font-size: 43px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+.aboutleft .experience h4{
+    color: #ffff;
+    font-size: 22px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+.image {
+    height: 237px;
+    width: 220px;
+    position: absolute;
+    right: -50px;
+    bottom: 40px;
+}
+.aboutleft image{
+    width: 50%;
 }
 .aboutright{
     width: 45%;
     
 }
-.aboutright h4{
+.aboutright h4 {
     font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 103px;
+    color: #000000;
+    text-transform: uppercase;
 }
 .aboutright h3 {
     font-family: "Red Hat Display", sans-serif;
-    font-size: 35px;
+    font-size: 43px;
     font-weight: 600;
-    line-height: 48.5px;
+    line-height: 57.5px;
     padding-top: 40px;
     padding-bottom: 45px;
-    width: 395px;
+    width: 472px;
 }
 .aboutright p {
     font-family: "DM Sans", sans-serif;
@@ -253,7 +288,7 @@ padding: 40px 0 30px 0;
     color: #ffff;
     border-radius: 15px;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: 16px;
     
 }
 .callus {
@@ -266,11 +301,17 @@ padding: 40px 0 30px 0;
 }
 
 .callus li h5{
-    font-family: "DM Sans", sans-serif;
-    font-size: 18px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
     font-weight: 600;
     color: black;
 }
+.callus img{
+    padding-left: 120px;
+    width: 223px;
+
+}
+
 /* About part End  */
 
 /* Banner part start  */
